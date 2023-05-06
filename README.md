@@ -14,3 +14,6 @@ To set up:
 6. When complete, run CRACKER.exe. Input the password hash, and then the type of hash. To identify: https://hashes.com/en/tools/hash_identifier (Shown in possible algorithms after inputting hash)
 7. In future, you will not need to run PRE_HASH_FILES.exe again, UNLESS YOU WANT TO USE A NEW WORDLIST. IN THAT CASE, GO OVER THESE STEPS AGAIN IN A NEW FOLDER, WITH YOUR NEW WORLIST.
 8. Wait for CRACKER to detect the password. Whether it cracks the password is dependent on the complexity and the scope of the wordlist. The rockyou wordlist contains 14 million of the most common passwords, while crackstation has a wordlist with 1.5 billion entries.
+
+
+Note: CRACKER.exe may be flagged as a virus. If you want, compile it from the source CRACKER.py file. Requires installing hashlib library.
